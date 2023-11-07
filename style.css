@@ -37,7 +37,7 @@ body{
 
 }
 .menu ul a:hover{
-  color: #52796f;
+  color: #B1977E;
 }
 
 .bottom-primary a{
@@ -103,6 +103,7 @@ body{
     width: 225px;
     height: 225px;
     display: flex;
+    object-fit: cover;
 
   }
   .card ul h4{
@@ -156,6 +157,7 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+
 .h2title{
     text-decoration: underline;
     color: black;
@@ -194,6 +196,7 @@ body{
   }
   .infos-content{
     padding: 50px 0 0 0;
+    text-decoration: 0px;
   }
   .infos-content a:hover{
     color: #B1977E;
@@ -224,4 +227,7 @@ body{
   }  
   .card h4{
     color: black;
+  }
+  .social-media-links h4:hover{
+   color:  #B1977E;
   }
