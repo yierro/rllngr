@@ -1,9 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;600&display=swap');
+
 body{
-    color:white
+    font-family: 'Mukta', sans-serif;
+    background: linear-gradient(120deg, #a7c957, white);
+    margin: 0px;
 }
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    background-color: black;
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #52796f;
+    
+    
+ 
+}
+
+.logo img{
+    width: 105px;
+    
+}
+
+.menu ul{
+    display:flex;
+    gap: 20px;
+   
+    
+    list-style: none;
+  
+}
+.menu ul a{
+    text-decoration: none;
     color: white;
+    font-size: 20px;
+    
+
 }
+.menu ul a:hover{
+  color: #52796f;
+}
+
+.bottom-primary a{
+    text-decoration: none;
+    border:solid;
+    border-radius: 20px;
+    padding: 15px;
+    width: 150px;
+    background-color: #52796f;
+    color: whitesmoke;
+    text-decoration: underline;
+
+}
+.bottom-primary a:hover{
+    color: #e6ccb2;
+}
+
+.hero{
+    background-image: url(img/stade.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 98vw;
+    height: 48vw;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.hero h1{
+    color:#fffcf2;
+    font-size: 45px;
+    text-align: center;
+    padding: 205px;
+    
+}
+.hero h2{
+    color: #fffcf2;
+    font-size: 30px;
+    text-align: center;
+   
+}
+
+
+.card ul{
+    list-style: none;
+    font-family:fantasy;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+  }
+  
+  
+
+ .card ul li{
+    box-shadow: 10px 5px 5px #8a817c;
+
+ }
+  
+  .card img{
+    width: 225px;
+    height: 225px;
+    display: flex;
+
+  }
+  .card ul h4{
+    text-align: center;
+    text-decoration: underline;
+  }
+  .card ul p{
+    text-align: center;
+  }
+
+  .card ul h4:hover{
+    color: #52796f;
+
+  }
+.card h2{
+    color: black;
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+.card h2:hover{
+    color:#52796f
+}
+
+
+.container h2{
+    text-decoration: underline;
+    color: black;
+    text-align: center;
+    font-style: italic;
+    
+}
+.container img{
+    width: 105px;
+}
+.container h2{
+   text-align: center;
+}
+.container ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.container h2:hover{
+    color:#52796f
+}
+.intro {
+    margin: 0px;
+    padding: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.h2title{
+    text-decoration: underline;
+    color: black;
+    text-align: center;
+    font-style: italic;
+
+
+}
+.h2title:hover{
+    color:#52796f
+}
+.intro p{
+    width: 70%;
+    line-height: 25px;
+
+
+}
+.intro h2{
+    text-decoration: underline;
+    color: black;
+    text-align: center;
+    font-style: italic;
+}
+.intro img{
+    width: 450px;
+}
+.infos{
+    display: flex;
+    justify-content: space-around;
+  background-color: #52796f;
+  }
+  .infos a{
+    margin-right: 20px;
+    font-size: 20px;
+    color: #fff;
+  }
+  .infos-content{
+    padding: 50px 0 0 0;
+  }
+  .infos-content a:hover{
+    color: #B1977E;
+    }
+  .social-media-links h4{
+    color: white;
+    font-size: 20px;
+  }
+  .social-media-links img{
+  width: 28px;
+  height: 28px;
+  }
+  .social-media-links{
+    padding-bottom: 50px;
+  }
+  footer{
+    background-color: #52796f;
+    color: #fff;
+  }
+  footer h3{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+  }
+  .footer-infos{
+    border-top: 2px solid #B1977E;
+    padding-bottom: 10px;
+  }  
+  .card h4{
+    color: black;
+  }
